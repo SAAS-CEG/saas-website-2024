@@ -1080,6 +1080,13 @@ About
   margin-right: 30px;
 }
 
+.about-us .left-image img {
+  box-shadow: 10px 30px 40px tan;
+  border-radius: 25px;
+  max-width: fit-content;
+  height: 13em;
+}
+
 .about-us .section-heading h2 {
   margin-right: 60px;
 }
@@ -2044,6 +2051,12 @@ responsive
   }
   .contact-us .info span {
     margin-bottom: 20px;
+  }
+
+  .about-us .left-image img {
+    height: fit-content;
+    margin-bottom: 2.5em;
+    margin-left: 12px;
   }
 
   #faq-section {
