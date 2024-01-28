@@ -1208,6 +1208,7 @@ Portfolio
 
 .our-portfolio .item .thumb img {
   max-width: 100%;
+  object-fit: cover;
   height: 400px;
   border-radius: 20px;
   transition: all .3s;
@@ -2057,6 +2058,10 @@ responsive
     height: fit-content;
     margin-bottom: 2.5em;
     margin-left: 12px;
+  }
+
+  .our-portfolio .item .thumb .normal-img {
+    object-position: top;
   }
 
   #faq-section {
