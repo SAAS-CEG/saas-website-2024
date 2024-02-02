@@ -171,7 +171,7 @@
   //   $("#js-preloader").addClass("loaded");
   // });
   // Set a maximum duration for the loader (20 seconds)
-  const maxLoaderDuration = 10000;
+  const maxLoaderDuration = 15000;
   let loaderTimeout;
 
   // Function to hide the loader
