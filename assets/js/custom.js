@@ -167,8 +167,26 @@
   }
 
   // Page loading animation
-  $(window).on("load", function () {
+  // $(window).on("load", function () {
+  //   $("#js-preloader").addClass("loaded");
+  // });
+  // Set a maximum duration for the loader (20 seconds)
+  const maxLoaderDuration = 25000;
+  let loaderTimeout;
+
+  // Function to hide the loader
+  function hideLoader() {
     $("#js-preloader").addClass("loaded");
+  }
+
+  // Trigger the hideLoader function after the specified duration
+  loaderTimeout = setTimeout(hideLoader, maxLoaderDuration);
+
+  // Check if the window has finished loading
+  $(window).on("load", function () {
+    // Clear the timeout to ensure hideLoader is not called if the window has already loaded
+    clearTimeout(loaderTimeout);
+    hideLoader();
   });
 
   // Window Resize Mobile Menu Fix
