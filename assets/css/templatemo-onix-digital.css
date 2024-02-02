@@ -1183,33 +1183,33 @@ Portfolio
   transition: all .5s;
   bottom: -240px;
   right: 0px;
-  width: 240px;
-  height: 120px;
+  width: 13.3rem;
+  height: 7.5rem;
 }
 
 .our-portfolio .item .hover-effect .inner-content {
   position: absolute;
-  right: 30px;
-  bottom: 30px;
+  right: 20px;
+  bottom: 22px;
   text-align: right;
 }
 
 .our-portfolio .item .hover-effect .inner-content h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #fff;
   margin-bottom: 15px;
 }
 
 .our-portfolio .item .hover-effect .inner-content span {
-  font-size: 15px;
+  font-size: 0.9rem;
   color: #fff;
 }
 
 .our-portfolio .item .thumb img {
   max-width: 100%;
   object-fit: cover;
-  height: 400px;
+  height: 25rem;
   border-radius: 20px;
   transition: all .3s;
 }
